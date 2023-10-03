@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Public+Sans&family=Roboto+Mono&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"> 
+    </script>
+    
+  </head>
+
+  <body>
+
+<header>
+
+<nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+    <div class="container py-3">
+      <a class="navbar-brand primary-color" href="#">
+        <img src="./imgs/favicon-fenix.png" alt="Fênix"/>
+        <span>Fênix Confeitaria</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar-items"
+        aria-controls="navbar-items"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-items">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link  primary-color" href="home.html">Home</a> </li>
+          <li class="nav-item"><a class="nav-link primary-color active" aria-current="page" href="contato.html">Contato</a></li>
+          <li class="nav-item"><a class="nav-link primary-color" href="produtos.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link primary-color" href="#">Perfil</a></li>
+          <li class="nav-item"><a class="nav-link primary-color" href="#">Trabalhe Conosco</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="contato">
+  <div class="contato-mapa">
+    <iframe class="contato-mapa-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.9248899785563!2d-52.81970437079146!3d-28.45847179890542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd493b24699437%3A0xdb26ce86faa682a9!2sAv.%20Dr.%20Waldomiro%20Graeff%2C%201233%20-%20Centro%2C%20N%C3%A3o-Me-Toque%20-%20RS%2C%2099470-000%2C%20Brasil!5e0!3m2!1spt-PT!2spt!4v1680682208842!5m2!1spt-PT!2spt"
+    width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="contato-form">
+    <h1>Contato</h1>
+    <form>
+      <input type="text" placeholder="Name" class="contato-form-text"/>
+      <input type="text" placeholder="E-mail" class="contato-form-text"/>
+      <textarea placeholder="Mensagem" class="contato-form-textarea"></textarea>
+      <input type="submit" class="contato-form-btn " name="subimit"/>
+    </form>
+  </div>
+</div>
+
+<footer class="container-fluid bg-dark-color" id="footer">
+    <div class="container">
+     <div class="row">
+     </div>
+      
+    <div class="col-12" id="footer-top">
+     <div class="row justify-content-between">
+       <div class="col-4"><h2>Fênix</h2></div>
+       <div class="col-4" id="social-icons">
+         <i class="bi bi-facebook"></i>
+         <i class="bi bi-instagram"></i>
+         <i class="bi bi-youtube"></i>
+        
+       </div>
+      </div>
+    </div>
+    <div class="col-12"  id="footer-details">
+     <div class="row">
+       <div class="col-12 col-md-4" id="new-container">
+         <h4>Receba nossas promoções</h4>
+         <p class="secondary-color">Inscreva-se para receber as novidades:</p>
+         <form>
+           <div class="mb-3">
+             <input type="email" class="form-control" placeholder="Digite o seu e-mail">
+           </div>
+           <button class="btn btn-dark" type="submit">Inscreva-se</button>
+         </form>
+       </div>
+       <div class="col-12 col-md-4" id="contact-container">
+         <h4>Formas de Contato:</h4>
+         <p class="secondary-color">(71)8888-8888</p>
+         <p class="secondary-color">confeitariafenix@gmail.com</p>
+       </div>
+       <div class="col-12 col-md-4" id="links-container">
+       <div class="row">
+         <h4>Navegue pelos serviços:</h4>
+         <div class="col-6">
+           <ul class="list-unstyled">
+             <li><a href="produtos.html" class="secondary-color">Produtos</a></li>
+             <li><a href="produtos.html" class="secondary-color">Comprar</a></li>
+             <li><a href="home.html" class="secondary-color">Serviços</a></li>
+           </ul>
+         </div>
+         <div class="col-6">
+           <ul class="list-unstyled">
+             <li><a href="contato.html" class="secondary-color">Contato</a></li>
+             <li><a href="contato.html" class="secondary-color">Localização</a></li>
+             <li><a href="trabconosco.html" class="secondary-color">Trabalhe conosco</a></li>
+           </ul>
+       </div> 
+       </div>
+     </div>
+    </div>
+
+    <div class="col-12" id="footer-bottom">
+     <div class="row justify-content-between">
+       <div class="col-12 col-md-3">
+         <p class="secondary-color">Fênix Confeitaria&copy;2023</p>
+       </div>
+       <div class="col-12 col-md-3">
+         <p class="secondary-color">Faça-nos uma visita! <i class="bi bi-heart"></i></p>
+     </div>
+       </div>
+    </div>
+  </footer>
+ 
+
+
+
+  </body>
+</html>
