@@ -107,6 +107,8 @@ border-bottom:1px solid #1e0225;
   background-color: #2c031d;
 }
 
+
+
 @media (min-width: 768px) {
   #slider .carousel-caption {
     bottom: 15em;
@@ -187,7 +189,7 @@ border-bottom:1px solid #1e0225;
   flex-shrink: 1;
   flex-basis: 0; */
 
-  flex: 1;
+  /* flex: 1; */
 }
 
 
@@ -281,6 +283,8 @@ border-bottom:1px solid #1e0225;
   color: #1e0225;
   margin-left: 0.3em;
 }
+
+
 @media(min-widht:768px){
   #news-container{
     padding-right: 2em;
@@ -294,6 +298,68 @@ border-bottom:1px solid #1e0225;
   padding: 0 2em;
   border-left: 1px solid#e6dde9;
   border-right: 1px solid#e6dde9;
-} .wrapperContainer {
+} 
+
+.wrapperContainer {
   padding-top: 1px;
+}
+
+
+@media screen and (max-width: 576px){
+
+.bolos_card{
+  width: 30%;
+  font-size: .9rem;
+}
+
+.bolos_card h3{
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bolos_card img{
+  width: 100%;
+}
+
+.bolosContainer {
+  gap: .8rem;
+  text-align: center;
+}
+
+.empresa{
+  width: 100vw;
+  display: block;
+}
+
+.empresa img{
+  width: 80%;
+}
+
+.empresa_title{
+  text-align: center;
+  font-weight: 600;
+}
+
+.empresa_content h5{
+  text-align: center;
+  font-weight: 600;
+}
+
+.wrapperContainer-light {
+  /* width: ; */
+  padding: 0;
+  margin: 0;
+}
+
+.wrapperContainer{
+  padding: 0;
+  margin: 0;
+}
+
+.wrapperContainer-padded{
+  padding: 0;
+  margin: 0;
+}
+
 }
