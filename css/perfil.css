@@ -65,10 +65,12 @@ body{
     color: #180113;
     padding: 15px;
     margin-top: 6rem;
+    text-align: center;
    
     
 }
 .perfil > p{
+  text-align: center;
     padding: 10px;
     
 }
@@ -79,21 +81,26 @@ body{
 }
 
 .sobre{
-    background-color: #e4c1df;
+    background-color: #5e065e;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
+    text-align: center;
 }
 
 .sobre >h2{
-color: #24041c;
+color: #180113;
 padding: 10px;
 font-size: 1.25em;
-text-align: justify;
+text-align: center;
 }
 
+;sobre>p{
+  color: #180113;
+  text-align: justify;
+}
 .detalhe  {
     color: #180113;
     padding: 10px;
@@ -101,17 +108,16 @@ text-align: justify;
 
 }
 .detalhe>h2{
-    color: #24041c;
+    color: #180113;
     padding: 10px;
     font-size: 1.25em;  
 }
-.negrito{
-    font: weight 700;
-}
+
 
 .p{
     color: #1f0218;
     padding: 10px;
+    
 }
 .btn-social button{
   width: 60px;
@@ -123,11 +129,11 @@ text-align: justify;
   cursor: pointer;
   margin: 0px 5px;
 }
-.btn-social :hover{
-box-shadow: 0px 0px 8px #4e053e3f;
-transform: scale(1.05);
-}
 
+.btn-social :hover{
+  box-shadow: 0px 0px 8px #4e053e3f;
+  transform: scale(1.05);
+  }
   #footer{
     padding: 3em 2em;
   }

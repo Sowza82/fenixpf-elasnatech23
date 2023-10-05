@@ -1,10 +1,11 @@
-*{
+*{margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif; 
 }
 body{
 
   text-align: center;
-  margin-top: 7rem;
+  margin-top: 8rem;
 
   background-color: #f3e5f1;
 }
@@ -75,7 +76,7 @@ body{
  }
 
  .card-footer{
-  color: #dccfe0;
+  color: #f0ecf1;
  }
  .card-header{
   color:#994db1 ;
